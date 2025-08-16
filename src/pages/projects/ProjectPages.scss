@@ -1,0 +1,90 @@
+// src/pages/projects/ProjectPages.scss
+
+.project-page-container {
+  max-width: 980px;
+  margin: 40px auto;
+  padding: 0 16px;
+  line-height: 1.6;
+}
+
+.project-title {
+  font-size: 2.5em;
+  font-weight: bold;
+  margin-bottom: 20px;
+  color: #fff; // 블로그 테마에 맞게 색상을 변경하세요
+}
+
+.project-markdown-content {
+  color: #c0c0c0; // 블로그 테마에 맞게 색상을 변경하세요
+
+  h1, h2, h3, h4, h5, h6 {
+    margin-top: 30px;
+    margin-bottom: 10px;
+    font-weight: bold;
+    color: #fff; // 블로그 테마에 맞게 색상을 변경하세요
+  }
+
+  h1 { font-size: 2em; }
+  h2 { font-size: 1.75em; }
+  h3 { font-size: 1.5em; }
+
+  p {
+    font-size: 1em;
+    line-height: 1.6;
+    margin-bottom: 15px;
+  }
+
+  a {
+    color: #007bff; // 링크 색상
+    text-decoration: none;
+    &:hover {
+      text-decoration: underline;
+    }
+  }
+
+  ul, ol {
+    margin-bottom: 15px;
+  }
+
+  code {
+    background-color: #2c2f33;
+    color: #f0f0f0;
+    padding: 2px 5px;
+    border-radius: 4px;
+  }
+
+  pre {
+    background-color: #2c2f33;
+    padding: 15px;
+    border-radius: 8px;
+    overflow-x: auto;
+    code {
+      background: none;
+      padding: 0;
+      color: #f0f0f0;
+    }
+  }
+
+  blockquote {
+    border-left: 4px solid #5a5a5a;
+    padding-left: 15px;
+    margin-left: 0;
+    color: #a0a0a0;
+  }
+
+  table {
+    width: 100%;
+    border-collapse: collapse;
+    margin: 20px 0;
+    th, td {
+      border: 1px solid #5a5a5a;
+      padding: 8px;
+      text-align: left;
+    }
+    th {
+      background-color: #383a3f;
+      font-weight: bold;
+      color: #fff;
+    }
+  }
+}
